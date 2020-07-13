@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d420010e-97c9-4416-ac5f-4a3c68181355" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/benchmarks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/gsl_src/autoconf.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/gsl_src/gsl-2.1.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/GSLBenchTesting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/GSLBenchTesting2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/GSLBenchTesting2v.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/GSLBenchTesting2v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/GSLBenchTesting3v.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/GSLBenchTesting4v.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/bench1v.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/bench2v.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/bench3v.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/bench4v.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/repair4GSL1v.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_bessel_Inu .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_bessel_Inu_scaled.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_bessel_Jnu.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_bessel_Knu.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_bessel_Knu_scaled.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_bessel_Ynu.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_bessel_lnKnu.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_beta.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_conicalP_0.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_conicalP_1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_conicalP_half.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_conicalP_mhalf.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_ellint_D.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_ellint_E.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_ellint_F.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_ellint_Pcomp.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_ellint_RC.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_exp_mult.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_fermi_dirac_inc_0.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_gamma_inc.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_gamma_inc_P.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_gamma_inc_Q.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_gegenpoly_1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_gegenpoly_2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_gegenpoly_3.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_hydrogenicR_1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_hyperg_0F1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_hypot.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_hzeta.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_laguerre_1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_laguerre_2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_laguerre_3.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_legendre_H3d_0.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_legendre_H3d_1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_lnbeta.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_lnpoch.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_multiply.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_poch.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC2v/gsl_sf_pochrel.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC3v/gsl_sf_beta_inc.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC3v/gsl_sf_ellint_P.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC3v/gsl_sf_ellint_RD .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC3v/gsl_sf_ellint_RF.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC3v/gsl_sf_hyperg_1F1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC3v/gsl_sf_hyperg_2F0.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC3v/gsl_sf_hyperg_U .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC4v/gsl_sf_ellint_RJ.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC4v/gsl_sf_hyperg_2F1 .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC4v/gsl_sf_hyperg_2F1_conj.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC4v/gsl_sf_hyperg_2F1_conj_renorm.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DDEMC4v/gsl_sf_hyperg_2F1_renorm.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/ gsl_sf_gamma.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_Chi.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_Ci.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_Shi.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_Si.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_airy_Ai.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_airy_Ai_deriv.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_airy_Ai_deriv_scaled.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_airy_Ai_scaled.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_airy_Bi.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_airy_Bi_deriv .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_airy_Bi_deriv_scaled.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_airy_Bi_scaled.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_angle_restrict_pos.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_angle_restrict_symm.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_atanint .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_I0 .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_I0_scaled.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_I1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_I1_scaled.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_J0.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_J1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_K0.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_K0_scaled.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_K1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_K1_scaled.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_Y0.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_Y1 .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_i0_scaled.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_i1_scaled .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_i2_scaled.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_j0.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_j1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_j2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_k0_scaled .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_k1_scaled.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_k2_scaled .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_y0.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_y1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_bessel_y2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_clausen.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_cos.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_dawson.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_debye_1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_debye_2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_debye_3.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_debye_4.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_debye_5.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_debye_6.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_dilog.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_ellint_Ecomp.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_ellint_Kcomp.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_erf .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_erf_Q.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_erf_Z.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_erfc.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_eta.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_exp.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_exp_e10_e .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_expint_3.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_expint_E1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_expint_E2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_expint_Ei.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_expm1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_exprel.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_exprel_2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_fermi_dirac_0 .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_fermi_dirac_1 .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_fermi_dirac_2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_fermi_dirac_3half.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_fermi_dirac_half.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_fermi_dirac_m1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_fermi_dirac_mhalf.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_gammainv .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_gammastar.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_hazard .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_lambert_W0.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_lambert_Wm1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_legendre_P1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_legendre_P2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_legendre_P3.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_legendre_Q0.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_legendre_Q1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_lncosh.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_lngamma.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_lnsinh .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_log .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_log_1plusx.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_log_1plusx_mx.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_log_abs.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_log_erfc.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_psi.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_psi_1 .xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_psi_1piy.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_sin.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_sinc.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_synchrotron_1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_synchrotron_2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_transport_2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_transport_3.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_transport_4.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_transport_5.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_zeta.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/DEMC/gsl_sf_zetam1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/results_file/final_results_1v.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/results_file/final_results_2v.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/results_file/final_results_3v.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/results_file/final_results_4v.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper_data/detecting_results/results_file/plot_circle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenPatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Localize_err_bound.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detector1v.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eft.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fun_index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fun_index.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linerFinder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/localizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/printFonts.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/experiments/GSLBenchTesting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2370">
+              <caret line="80" column="37" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/detector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="821">
+              <caret line="118" column="62" lean-forward="true" selection-start-line="118" selection-start-column="62" selection-end-line="118" selection-end-column="62" />
+              <folding>
+                <element signature="e#87#110#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/basic_func.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9150">
+              <caret line="320" column="16" selection-start-line="320" selection-start-column="4" selection-end-line="320" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/experiments/repair4GSL1v.py" />
+        <option value="$PROJECT_DIR$/experiments/GSLBenchTesting2.py" />
+        <option value="$PROJECT_DIR$/paper_data/detecting_results/results_file/plot_circle.py" />
+        <option value="$PROJECT_DIR$/src/detector.py" />
+        <option value="$PROJECT_DIR$/experiments/GSLBenchTesting.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="64" />
+    <option name="y" value="-11" />
+    <option name="width" value="3777" />
+    <option name="height" value="2172" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NPTaylor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NPTaylor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NPTaylor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NPTaylor" type="462c0819:PsiDirectoryNode" />
+              <item name="benchmarks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NPTaylor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NPTaylor" type="462c0819:PsiDirectoryNode" />
+              <item name="experiments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NPTaylor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NPTaylor" type="462c0819:PsiDirectoryNode" />
+              <item name="experiments" type="462c0819:PsiDirectoryNode" />
+              <item name="detecting_results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NPTaylor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NPTaylor" type="462c0819:PsiDirectoryNode" />
+              <item name="experiments" type="462c0819:PsiDirectoryNode" />
+              <item name="detecting_results" type="462c0819:PsiDirectoryNode" />
+              <item name="DEMC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NPTaylor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NPTaylor" type="462c0819:PsiDirectoryNode" />
+              <item name="paper_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NPTaylor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NPTaylor" type="462c0819:PsiDirectoryNode" />
+              <item name="paper_data" type="462c0819:PsiDirectoryNode" />
+              <item name="detecting_results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NPTaylor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NPTaylor" type="462c0819:PsiDirectoryNode" />
+              <item name="paper_data" type="462c0819:PsiDirectoryNode" />
+              <item name="detecting_results" type="462c0819:PsiDirectoryNode" />
+              <item name="results_file" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/benchmarks/gsl_src" />
+      <recent name="$PROJECT_DIR$/paper_data/detecting_results/results_file" />
+      <recent name="$PROJECT_DIR$/paper_data" />
+      <recent name="$PROJECT_DIR$/experiments" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.GSLBenchTesting">
+    <configuration name="GSLBenchTesting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NPTaylor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiments" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments/GSLBenchTesting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot_circle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NPTaylor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/paper_data/detecting_results/results_file" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/paper_data/detecting_results/results_file/plot_circle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.GSLBenchTesting" />
+        <item itemvalue="Python.plot_circle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d420010e-97c9-4416-ac5f-4a3c68181355" name="Default Changelist" comment="" />
+      <created>1594433711739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594433711739</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="3777" height="2172" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12402475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27733597" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Bucklescript" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32952285" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/eft.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="10" selection-start-column="10" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16405">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/GSLBenchTesting2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1150">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/GSLBenchTesting2v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2530">
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/GSLBenchTesting2v.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/GSLBenchTesting4v.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="108" column="34" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paper_data/detecting_results/results_file/plot_circle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="174" column="12" lean-forward="true" selection-start-line="174" selection-start-column="12" selection-end-line="174" selection-end-column="12" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/bench2v.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/repair4GSL1v.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1375">
+          <caret line="171" column="19" lean-forward="true" selection-start-line="171" selection-start-column="19" selection-end-line="171" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/bench1v.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/GSLBenchTesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2370">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic_func.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9150">
+          <caret line="320" column="16" selection-start-line="320" selection-start-column="4" selection-end-line="320" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="118" column="62" lean-forward="true" selection-start-line="118" selection-start-column="62" selection-end-line="118" selection-end-column="62" />
+          <folding>
+            <element signature="e#87#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

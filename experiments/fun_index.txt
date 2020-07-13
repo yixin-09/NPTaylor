@@ -1,0 +1,10 @@
+gsl_sf_legendre_H3d function    575 /home/yixin/PycharmProjects/NPTaylor/benchmarks/gsl_src/gsl-2.1-repair/specfunc/legendre_H3d.c double gsl_sf_legendre_H3d(const int l, const double lambda, const double eta)
+gsl_sf_legendre_H3d_0 function    565 /home/yixin/PycharmProjects/NPTaylor/benchmarks/gsl_src/gsl-2.1-repair/specfunc/legendre_H3d.c double gsl_sf_legendre_H3d_0(const double lambda, const double eta)
+gsl_sf_legendre_H3d_0_e function    249 /home/yixin/PycharmProjects/NPTaylor/benchmarks/gsl_src/gsl-2.1-repair/specfunc/legendre_H3d.c gsl_sf_legendre_H3d_0_e(const double lambda, const double eta, gsl_sf_result * result)
+gsl_sf_legendre_H3d_1 function    570 /home/yixin/PycharmProjects/NPTaylor/benchmarks/gsl_src/gsl-2.1-repair/specfunc/legendre_H3d.c double gsl_sf_legendre_H3d_1(const double lambda, const double eta)
+gsl_sf_legendre_H3d_1_e function    294 /home/yixin/PycharmProjects/NPTaylor/benchmarks/gsl_src/gsl-2.1-repair/specfunc/legendre_H3d.c gsl_sf_legendre_H3d_1_e(const double lambda, const double eta, gsl_sf_result * result)
+gsl_sf_legendre_H3d_array function    506 /home/yixin/PycharmProjects/NPTaylor/benchmarks/gsl_src/gsl-2.1-repair/specfunc/legendre_H3d.c gsl_sf_legendre_H3d_array(const int lmax, const double lambda, const double eta, double * result_array)
+gsl_sf_legendre_H3d_e function    374 /home/yixin/PycharmProjects/NPTaylor/benchmarks/gsl_src/gsl-2.1-repair/specfunc/legendre_H3d.c gsl_sf_legendre_H3d_e(const int ell, const double lambda, const double eta,
+legendre_H3d_CF1_ser function    211 /home/yixin/PycharmProjects/NPTaylor/benchmarks/gsl_src/gsl-2.1-repair/specfunc/legendre_H3d.c legendre_H3d_CF1_ser(const int ell, const double lambda, const double coth_eta,
+legendre_H3d_lnnorm function     47 /home/yixin/PycharmProjects/NPTaylor/benchmarks/gsl_src/gsl-2.1-repair/specfunc/legendre_H3d.c legendre_H3d_lnnorm(const int ell, const double lambda, double * result)
+legendre_H3d_series function     98 /home/yixin/PycharmProjects/NPTaylor/benchmarks/gsl_src/gsl-2.1-repair/specfunc/legendre_H3d.c legendre_H3d_series(const int ell, const double lambda, const double eta,
